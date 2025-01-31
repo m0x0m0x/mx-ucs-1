@@ -26,9 +26,11 @@ b1() {
 
 c1() {
     CO1="dotnet add package Pastel --version 6.0.1"
+    CO11="dotnet add package Nethereum --version 4.20.0--date20240411-0529.git-a691a3d"
     CO2="dotnet list package"
     echo -e "${GREEN}Executing Command: ${NC}${CO1}"
     eval "$CO1"
+    eval "$CO11"
     eval "$CO2"
 }
 

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Nethereum" Version="4.20.0--date20240411-0529.git-a691a3d" />
     <PackageReference Include="Pastel" Version="6.0.1" />
   </ItemGroup>
 
